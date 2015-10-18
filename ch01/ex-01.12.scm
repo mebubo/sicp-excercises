@@ -6,6 +6,6 @@
       (+ (pascal (- row 1) (- col 1))
          (pascal (- row 1) col))))
 
-(pascal 1 1)
+(print (pascal 1 1))
 (pascal 5 4)
 
